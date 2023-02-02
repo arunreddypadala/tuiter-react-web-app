@@ -1,0 +1,164 @@
+body{
+    background-color: black;
+    color: white;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-parent {
+
+    content: '';
+    display: block;
+    position: relative;
+    width: 100%;
+    border: 1px solid lightgray;
+
+}
+
+.wd-search {
+    margin-top: 12px;
+    display: flex;
+}
+
+.wd-search-image {
+
+    width: 50px;
+    height: 26px;
+
+}
+
+.wd-search-field {
+    display: flex;
+    height: 30px;
+    border-radius: 50px;
+    background-color: lightgray;
+    width: 80%;
+    border: 1px solid red;
+
+}
+
+.wd-gear-image {
+
+    width: 50px;
+    height: 26px;
+    padding-left: 80px;
+    margin-right: 12px;
+
+}
+
+.wd-search-hyperlinks {
+
+    display: flex;
+
+}
+
+.wd-for-you-hyperlink {
+
+    display: flex;
+    padding: 16px;
+    font-size: 15px;
+    color: rgb(29,161,242);
+
+}
+
+.wd-trending-hyperlink {
+
+    display: flex;
+    padding: 16px;
+    padding-left: 150px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+
+}
+
+.wd-COVID19-hyperlink {
+
+    display: flex;
+    padding: 16px;
+    padding-left: 150px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+
+}
+
+.wd-entertainment-hyperlink {
+
+    display: flex;
+    padding: 16px;
+    padding-left: 150px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+
+}
+
+.wd-news-hyperlink {
+
+    display: flex;
+    padding: 16px;
+    padding-left: 100px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+
+}
+
+.wd-sports-hyperlink {
+
+    display: flex;
+    padding: 16px;
+    padding-left: 150px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+
+}
+
+.wd-suggested-posts {
+
+    content: '';
+    display: block;
+    position: relative;
+    width: 100%;
+    border: 1px solid lightgray;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+
+}
+
+.wd-suggest-posts-content {
+    color: white;
+}
+
+.wd-explore-posts {
+
+    content: '';
+    display: block;
+    position: relative;
+    width: 100%;
+    border: 1px solid lightgray;
+
+
+
+}
+
+.wd-explore-posts-content {
+
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.wd-explore-posts-image {
+
+
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 7px;
+    right: 16px;
+    content: '';
+    display: block;
+    border-radius: 10px;
+
+}
+
+
+
+
