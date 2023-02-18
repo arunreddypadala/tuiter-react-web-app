@@ -1,10 +1,10 @@
 const posts = [
     {
         userName: 'Elon Musk ',
-        avatarIcon: '../../../images/elonmusk.jpeg',
+        avatarIcon: '../../images/elonmusk.jpeg',
         handle: 'elonmusk ',
         time: '23h',
-        image: '../../../images/insp4x.jpeg',
+        image: '../../images/insp4x.jpeg',
         post: 'Amazing show about @Inspiration4x mission!',
         title: 'Countdown: Inspiration4 Mission to Space | Netflix Official Site',
         message: 'From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space ...',
@@ -16,10 +16,10 @@ const posts = [
     },
     {
         userName: 'New York Post ',
-        avatarIcon: '../../../images/newyorkpost.png',
+        avatarIcon: '../../images/newyorkpost.png',
         handle: 'nypost ',
         time: '23h',
-        image: '../../../images/grims.jpeg',
+        image: '../../images/grims.jpeg',
         post: 'Grimes seen reading Karl Marx following split with world\'s richest man Elon Musk trib.al/51aHJnq!',
         title: '',
         message:'',
