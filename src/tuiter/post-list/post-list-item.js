@@ -27,13 +27,13 @@ const PostListItem = (
 
                         <img alt="" className=" w-100 border-bottom border-secondary rounded "
                              src={`/images/${post.image} ` } height="340px" />
-                            <div
-                                className="w-100 ps-3 pe-2 fw-bolder align-items-center">
-                                {post.title}
-                            </div>
-                            <div className="mt-1 w-100 ps-3 pe-2 align-items-center">
-                                {post.message}
-                            </div>
+                        <div
+                            className="w-100 ps-3 pe-2 fw-bolder align-items-center">
+                            {post.title}
+                        </div>
+                        <div className="mt-1 w-100 ps-3 pe-2 align-items-center">
+                            {post.message}
+                        </div>
                     </div>
                     <br/>
 

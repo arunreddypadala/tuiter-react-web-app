@@ -41,22 +41,22 @@ const NavigationSidebar = () => {
                 <i className="bi bi-list-ul"></i><span>&nbsp;&nbsp;&nbsp;</span>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none "> Lists </span>
             </a>
-            <a href="#" className={`list-group-item
-                            ${active === 'profile'?'active':''}`}>
+            <Link to="/tuiter/profilescreen" className={`list-group-item
+                    ${active === 'profilescreen'?'active':''}`}>
                 <i className="bi bi-person-fill"></i><span>&nbsp;&nbsp;&nbsp;</span>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none "> Profile </span>
-            </a>
+            </Link>
             <a href="#" className={`list-group-item
                             ${active === 'more'?'active':''}`}>
                 <i className="bi bi-info-circle-fill"></i><span>&nbsp;&nbsp;&nbsp;</span>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none "> More </span>
             </a>
-            <a href="/" className={`list-group-item
+            <a href="/a7" className={`list-group-item
                             ${active === 'more'?'active':''}`}>
                 <i className="bi bi-plus-circle-fill"></i><span>&nbsp;&nbsp;&nbsp;</span>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none "> Labs </span>
             </a>
-</div>
-);
+        </div>
+    );
 };
 export default NavigationSidebar;

@@ -1,5 +1,6 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
+import TuitList from "../tuit-list"
 import "./index.css";
 const ExploreComponent = () => {
     return(
@@ -26,13 +27,20 @@ const ExploreComponent = () => {
                 <li className="nav-item">
                     <a href="#" className="nav-link text-muted">News</a>
                 </li>
+                <li className="nav-item">
+                    <a href="#" className="nav-link text-muted">Sports</a>
+                </li>
+                <li className="nav-item">
+                    <a href="#" className="nav-link text-muted">Entertainment</a>
+                </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src="/images/spaceX_starship.png" className="w-100" alt={"info"}/>
+                <img src="/images/starship.jpeg" className="w-100" alt={"info"}/>
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
             </div>
-            <PostSummaryList/>
+            {/*<PostSummaryList/>*/}
+            <TuitList/>
         </>
     );
 };

@@ -11,7 +11,8 @@ function App() {
                 <Routes>
                     <Route path="/hello"
                            element={<HelloWorld/>}/>
-                    <Route path="/" index element={<Labs/>}/>
+                    {/*<Route path="/" index element={<Labs/>}/>*/}
+                    <Route path="/*" element={<Labs/>}/>
                     <Route path="/tuiter/*"
                            element={<Tuiter/>}/>
                 </Routes>
