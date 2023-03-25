@@ -27,7 +27,7 @@ const EditProfileComponentList = (
 
     let navigate = useNavigate();
     const routeChange = () => {
-        let path = `../profilescreen`;
+        let path = `/tuiter/profilescreen`;
         navigate(path);
     }
 

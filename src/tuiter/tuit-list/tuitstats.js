@@ -1,47 +1,87 @@
 import React from "react";
 import {useState} from "react";
 import {Link} from "react-router-dom";
-
+import {useDispatch} from "react-redux";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 const TuitStats = ({tuit}) => {
     let [liked, setLiked] = useState(tuit.liked);
+    let [disliked, setDisliked] = useState(tuit.disliked);
+
+    const dispatch = useDispatch();
+
     const changeLiked = () => {
         setLiked(!liked)
+    }
+    const changeDisliked = () => {
+        setDisliked(!disliked)
     }
 
     return (
         <div className="row ms-1 mt-3 text-secondary">
-            <div className="col-3">
+            <div className="col-2">
                 <Link to={""} className="nav-link">
                     <i className="bi bi-chat"></i> &nbsp;
-                    <span className="pl-sm-2"> {tuit.replies} </span>
+                    <span className="pl-sm-2"> {tuit.replies}&nbsp; </span>
                 </Link>
             </div>
-            <div className="col-3">
+            <div className="col-2">
                 <Link to={""} className="nav-link">
                     <i className="bi bi-arrow-repeat"></i> &nbsp;
-                    <span className="pl-sm-2"> {tuit.retuits} </span>
+                    <span className="pl-sm-2"> {tuit.retuits} &nbsp;</span>
                 </Link>
             </div>
-            <div className="col-3">
+
+            <div className="col-2 justify-content-center">
                 <Link onClick={changeLiked} className="nav-link" to={""}>
                     {
                         !liked &&
-                        <i className="bi bi-heart"></i>
+                        <i onClick= { () =>
+                            dispatch(updateTuitThunk({
+                                                         ...tuit,
+                                                         likes: typeof tuit.likes === 'undefined'? 1:tuit.likes - 1}))}
+                           className="bi bi-heart-fill me-2 text-danger"></i>
                     }
                     {
                         liked &&
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                             fill="red" className="bi bi-heart-fill"
-                             viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                        </svg>
+                        <i onClick= { () =>
+                            dispatch(updateTuitThunk({
+                                                         ...tuit,
+                                                         liked: true,
+                                                         likes: typeof tuit.likes === 'undefined'? 1:tuit.likes + 1}))}
+                           className="bi bi-heart me-2 "></i>
+
                     }
-                    &nbsp;
-                    <span className="pl-sm-2"> {tuit.likes} </span>
+                    <span className="pl-sm-2"> {tuit.likes} &nbsp; </span>
                 </Link>
             </div>
-            <div className="col-3">
+
+            <div className="col-2">
+                <Link onClick={changeDisliked} className="nav-link" to={""}>
+                    {
+                        !disliked &&
+                        <i onClick= { () =>
+                            dispatch(updateTuitThunk({
+                                                         ...tuit,
+
+                                                         dislikes: typeof tuit.dislikes === 'undefined'? 1:tuit.dislikes - 1}))}
+                           className="bi bi-hand-thumbs-down-fill me-2 text-black"></i>
+                    }
+                    {
+                        disliked &&
+                        <i onClick= { () =>
+                            dispatch(updateTuitThunk({
+                                                         ...tuit,
+                                                         disliked: true,
+                                                         dislikes: typeof tuit.dislikes === 'undefined'? 1:tuit.dislikes + 1}))}
+                           className="bi bi-hand-thumbs-down-fill me-2 text-muted "></i>
+
+                    }
+                    &nbsp;
+                    <span className="pl-sm-2"> {tuit.dislikes}&nbsp; </span>
+                </Link>
+            </div>
+
+            <div className="col-2">
                 <Link to={""} className="nav-link">
                     <i className="bi bi-upload"></i>
                 </Link>
