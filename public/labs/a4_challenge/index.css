@@ -1,0 +1,62 @@
+body {
+    font-family: "Arial";
+    background-color: white;
+    color: black;
+}
+
+.btn-follow {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.wd-list-bg {
+    background-color: white;
+    color: black;
+}
+
+.wd-list-follow-bg {
+    background-color:#909090;
+    color: black;
+}
+
+
+.wd-search-icon {
+    top: 10px;
+    left: 10px;
+}
+
+.zindex-bring-to-front {
+    position: relative;
+    top: 57px;
+    left: 5%;
+    z-index: 1000;
+}
+
+.wd-tennis-title {
+    bottom: 40px;
+    left: 6px;
+    position: absolute;
+    color: white;
+}
+
+
+.wd-search-bar {
+    background-color: #909090;
+    border: 3px rgb(47, 51, 54);
+    color: white;
+
+}
+
+.wd-promoted {
+    color: gray;
+}
+
+.wd-check {
+    color: blue;
+}
+
+.wd-check-2 {
+    color: darkgoldenrod;
+}
+

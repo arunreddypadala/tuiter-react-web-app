@@ -1,0 +1,33 @@
+[
+
+  {
+    "_id": 123,
+    "userName": "Elon Musk ",
+    "avatarIcon": "elonmusk.jpeg",
+    "handle": "@elonmusk ",
+    "time": "15h",
+    "image": "insp4x.jpeg",
+    "detail": "Amazing show about @Inspiration4x mission!",
+    "title": "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
+    "message": "From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space ...",
+    "comments": "4.2K",
+    "retuits": "3.5K",
+    "likes": "37.5K"
+
+  },
+  {
+    "_id": 234,
+    "userName": "New York Post ",
+    "avatarIcon": "newyorkpost.png",
+    "handle": "@nypost ",
+    "time": "12h",
+    "image": "grims.jpeg",
+    "detail": "Grimes seen reading Karl Marx following split with world\"s richest man Elon Musk trib.al/51aHJnq!",
+    "title": "",
+    "message":"",
+    "comments": "965",
+    "retuits": "2.4K",
+    "likes": "4K"
+  }
+
+]

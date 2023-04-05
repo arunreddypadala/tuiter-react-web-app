@@ -1,0 +1,17 @@
+[
+  {
+    "_id": 123,
+    "firstName": "Arun",
+    "lastName": "Padala",
+    "bannerimage": "banner.jpeg",
+    "profilepic": "relativity_space.png",
+    "handle": "@arunpadala",
+    "bio": "Gamer",
+    "location":"Boston, MA",
+    "dob":"05 May 1998",
+    "dateJoined":"May 2005",
+    "followers":"150",
+    "following":"150",
+    "nooftuits": "6221"
+  }
+]

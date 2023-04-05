@@ -1,0 +1,45 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "",
+    "image": "spaceX.png",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "Tesla",
+    "time": "4d",
+    "title": "",
+    "image": "tesla.png",
+    "liked": true,
+    "replies": 234,
+    "retuits": 543,
+    "likes": 3456,
+    "handle": "@tesla",
+    "tuit": "Autopilot is an advanced driver assistance system that enhances safety and convenience behind the wheel. When used properly, Autopilot reduces your overall workload as a driver. Each new Tesla vehicle is equipped with eight external cameras and powerful vision processing to provide an additional layer of safety. All vehicles built for the North American market now use our camera-based Tesla Vision to deliver Autopilot features, rather than radar."
+  },
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "",
+    "image": "spaceX.png",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "The Tesla Cybertruck looks like it was dropped off by an alien race, but it has the capabilities to challenge all of the top-selling pickup trucks. With a sharp-edged exterior that is made of scratch- and dent-resistant stainless steel, Tesla's all-electric truck is seriously tough. Along with available all-wheel drive, the Cybertruck can tow up to 14,000 pounds and has an estimated driving range of 500-plus miles. While that applies only to the most expensive model, the cheapest one starts at $39,900. Of course, there's still a lot we don't know about the Cybertruck, including when it will officially go on sale."
+  }
+]

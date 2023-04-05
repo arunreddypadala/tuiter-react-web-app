@@ -1,0 +1,168 @@
+body{
+    background-color: black;
+    color: white;
+    border-color: lightgray;
+}
+
+.wd-parent {
+
+    content: '';
+    display: block;
+    position: relative;
+    width: 80%;
+    border: 1px solid lightgray;
+}
+
+
+.wd-bookmarks-title {
+    padding-top: 12px;
+    padding-left: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-bookmarks-handle {
+    padding-left: 16px;
+    color: lightgray;
+    font-size: 13px;
+}
+
+.wd-bookmarks-hr {
+    border: 1px solid lightgray;
+}
+
+
+.wd-tweet {
+    display: flex;
+    margin-bottom: 2px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-tweet-author-logo {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.wd-tweet-header {
+    display: flex;
+}
+
+.wd-tweet-author-name {
+    font-size: 15px;
+    color: lightgray;
+    margin-right: 5px;
+}
+
+.wd-tweet-author-handle {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-tweet-date {
+    margin-left: 10px;
+    color: lightgray;
+}
+
+
+.wd-author-content {
+    margin-right: 16px;
+    margin-bottom: 12px;
+    color: lightgray;
+}
+
+.wd-tweet-image {
+
+    display: block;
+    padding-top: 12px;
+    margin-left: 60px;
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+
+.wd-tweet-information {
+
+    content: '';
+    display: block;
+    position: relative;
+    width: 44%;
+    border: 1px solid lightgray;
+    margin-left: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.wd-tweet-title {
+
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+
+
+}
+
+.wd-tweet-content {
+
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+
+}
+
+.wd-icons{
+
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.fa-heart {
+
+    padding-left: 100px;
+    color: red;
+
+}
+
+.wd-icon-number-heart {
+
+    padding-left: 12px;
+    color: red;
+
+}
+
+.fa-share-from-square {
+    padding-left: 100px;
+}
+
+.fa-retweet {
+    padding-left: 100px;
+}
+
+.wd-icon-number-retweet {
+
+    padding-left: 12px;
+
+}
+
+.wd-icon-number-comment {
+
+    padding-left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
